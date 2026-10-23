@@ -12,7 +12,7 @@ python3 tools/ffta2tool.py build   --project project --rom patched.nds
 
 Only the Python standard library is used (no PIL, no numpy); the PNG and
 WAV readers and writers are in `tools/ffta2lib/`.  The ROM itself is
-unpacked and packed with [`dsd`](https://github.com/retaildev/dsd), which
+unpacked and packed with [`dsd`](https://github.com/AetiasHax/ds-decomp), which
 has to be in the path (or be given with `--dsd`).
 
 ## The project directory
